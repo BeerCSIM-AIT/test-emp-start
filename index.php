@@ -49,7 +49,7 @@
               <input type="text" class="form-control" name="empcode" id="empcode" placeholder="Employee Code">
             </div>
             <div class="col-2">
-              <button id="btn-search" class="btn btn-primary">Search</button>
+              <button id="btn-search" type="button" class="btn btn-primary">Search</button>
             </div>
           </div>
           <div class="mb-3 row">
@@ -80,6 +80,11 @@
             <label for="inputName" class="col-4 col-form-label">Bonus</label>
             <div class="col-6">
               <input type="text" class="form-control" name="bonus" id="bonus" placeholder="Bonus">
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <div class="col-12">
+              <button type="reset" id="btn-reset" class="btn btn-danger">Reset</button>
             </div>
           </div>
         </form>
